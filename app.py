@@ -25,7 +25,7 @@ with open("assets/coverletter.txt", "r", encoding="utf-8") as f:
     coverletter = f.read()
 
 linkedin = get_pdf_text("assets/Profile.pdf")
-cv = get_pdf_text("assets/CV.pdf")
+cv = get_pdf_text("assets/cv.pdf")
 
 # This is the system prompt that ensures the chatbot acts like me.
 system_prompt = f"You are acting as {name}. You are answering questions on {name}'s website, " \
